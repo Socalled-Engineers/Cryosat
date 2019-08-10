@@ -16,8 +16,14 @@ body {
     font-family: "mountains";
     src: url(fonts/beyond_the_mountains.ttf);
     src: url(fonts/beyond_the_mountains.otf);
-    font-weight: 400;
+	font-weight: 400;
 }
+
+@font-face {
+	font-family: "Crackvetica";
+    src: url(fonts/Crackvetica.ttf);
+}
+
 
 .d-col-n {
     position: relative;
@@ -28,7 +34,7 @@ body {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 /*------------------------------------------------------------
@@ -61,7 +67,7 @@ body {
     left: 0;
     z-index: 99;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .header-bar .site-branding {
@@ -85,7 +91,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 24px;
-    height: 22px;
+    height: 100px;
     margin-left: auto;
     transition: .5s ease-in-out;
     cursor: pointer;
@@ -132,7 +138,7 @@ body {
 
 .hamburger-menu.open span:nth-child(4) {
     top: 18px;
-    width: 0;
+    width: -50;
     left: 50%;
 }
 
@@ -251,11 +257,24 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+
+h3 {
+    padding: 50px;
+    margin: 0;
+    font-family: Crackvetica;
+    font-size:40px;
+	letter-spacing: 8px;
+    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .hero-content .entry-header .entry-meta-date {
     position: absolute;
     width: 100%;
-    top: 20px;
-    font-family: 'Poppins', sans-serif;
+    top: 50px;
+    font-family: mountains;
     font-size: 24px;
     font-weight: 500;
     color: hsl(0, 0%, 90%);
@@ -306,7 +325,7 @@ body {
 ## hero-content entry-footer
 ------------------------------------------------------------*/
 .hero-content .entry-footer {
-    margin-top: 125px;
+    margin-top: -15px;
     text-align: center;
 }
 
@@ -678,6 +697,7 @@ body {
 }
 
 .next-event-slider .entry-content h3 {
+	
     font-size: 24px;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
