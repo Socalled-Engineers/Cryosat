@@ -237,7 +237,7 @@ body {
 # hero
 -----------------------------------------------------------*/
 .hero-content {
-    padding: 220px 0;
+    padding: 10px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
 }
@@ -248,10 +248,11 @@ body {
 }
 
 .hero-content .entry-header h2 {
-    padding: 50px;
+    padding: 0px;
+    padding-bottom: 35px;
     margin: 0;
     font-family: mountains;
-    font-size:120px;
+    font-size:100px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -259,7 +260,8 @@ body {
 
 
 h3 {
-    padding: 50px;
+    padding: 45px;
+    padding-bottom: 0px;
     margin: 0;
     font-family: Crackvetica;
     font-size:40px;
@@ -326,6 +328,7 @@ h3 {
 ------------------------------------------------------------*/
 .hero-content .entry-footer {
     margin-top: -15px;
+	padding-bottom:10px;
     text-align: center;
 }
 
@@ -347,11 +350,11 @@ h3 {
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
 .content-section {
-    min-height: 4640px;
+    min-height: 4200px;
     width: 100%;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
     background: url("images/middle-cover.jpg") no-repeat;
-    background-size: 100% auto;
+    background-size: 50% auto;
 }
 
 .content-section .middle-cover {
@@ -376,7 +379,7 @@ h3 {
     padding: 0;
     font-size: 14px;
     font-weight: 600;
-    color: hsl(0, 0%, 48%);
+    color: black;
 }
 
 .lineup-artists-headline .entry-title h2 {
@@ -390,7 +393,7 @@ h3 {
 ## lineup-artists
 ------------------------------------------------------------*/
 .lineup-artists {
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 .lineup-artists .featured-image {
@@ -421,7 +424,7 @@ h3 {
 
 .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
     position: relative;
-    padding: 30px;
+    padding: 10px;
     background: hsl(0, 0%, 100%);
     box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
 }
@@ -450,7 +453,7 @@ h3 {
 
 @media screen and (min-width: 768px) {
     .lineup-artists .lineup-artists-wrap {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .lineup-artists .featured-image {
@@ -561,10 +564,10 @@ h3 {
 }
 
 .the-complete-lineup-artists .artist-single h2 {
-    margin-top: 38px;
-    font-size: 24px;
+    margin-top: 0px;
+    font-size: 20px;
     font-weight: 600;
-    color: hsl(0, 0%, 2%);
+    color: black;
     text-align: center;
 }
 
@@ -673,6 +676,8 @@ h3 {
 .next-event-slider .featured-image img {
     display: block;
     width: 100%;
+	
+	
 }
 
 .next-event-slider .entry-content {
@@ -721,6 +726,7 @@ h3 {
 
 .next-event-slider-wrap .swiper-button-next img {
     width: 100%;
+	padding-top:50px;
 }
 
 @media screen and (min-width: 768px){
@@ -736,7 +742,7 @@ h3 {
 # home-page-last-news
 ------------------------------------------------------------*/
 .home-page-last-news {
-    margin-top: 220px;
+    margin-top: 10px;
 }
 
 .home-page-last-news .entry-title p {
@@ -898,7 +904,7 @@ h3 {
 
 @media screen and (min-width: 576px) {
     .footer-content-wrapper .entry-title a {
-        font-size: 75px;
+        font-size: 50px;
     }
 }
 
