@@ -1297,7 +1297,8 @@ h3 {
 }
 
 .tickets-page .tabs .tab-content {
-    padding: 100px 100px;
+    padding: 10px 10px;
+	padding-bottom:-50px;
     color: #989898;
     font-size: 15px;
     line-height: 1.8;
