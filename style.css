@@ -1026,7 +1026,7 @@ h3 {
 }
 
 .main-content {
-    margin: 120px 0;
+    margin: 0px 0;
 }
 
 .main-content .entry-header .entry-title p {
@@ -1262,7 +1262,7 @@ h3 {
 }
 
 .tickets-page .tabs {
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .tickets-page .tabs ul {
