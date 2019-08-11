@@ -1038,7 +1038,7 @@ h3 {
 }
 
 .main-content .entry-header .entry-title h2 {
-    margin: 50;
+    margin: 0;
     padding-bottom: 50px;
     padding-top: 50px;
     font-size: 48px;
