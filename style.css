@@ -346,6 +346,13 @@ h3 {
     color: hsl(0, 0%, 0%);
 }
 
+.navigate h2{
+	padding-left:50px;
+	display:block;
+	font-size:30px;
+	font-family:Gill Sans;
+}
+
 /*------------------------------------------------------------
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
