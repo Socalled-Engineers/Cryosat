@@ -249,6 +249,7 @@ body {
 
 .hero-content .entry-header h2 {
     padding: 70px;
+    padding-left: 0px;
     padding-bottom: 35px;
     margin: 0;
     font-family: mountains;
@@ -262,7 +263,7 @@ body {
 h3 {
     padding: 70px;
     padding-bottom: 0px;
-    margin: 0;
+    margin: 8px;
     font-family: Crackvetica;
     font-size:20px;
 	letter-spacing: 5px;
