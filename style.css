@@ -103,7 +103,7 @@ body {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #0fe3e4;
+    background: #ff2828;
     border-radius: 10px;
     opacity: 1;
     left: 0;
@@ -185,7 +185,7 @@ body {
 
 .site-navigation ul li a {
     display: block;
-    color: #0fe3e4;
+    color: #ff2828;
     transition: all 0.35s;
     text-decoration: none;
     font-size: 14px;
